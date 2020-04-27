@@ -1,0 +1,41 @@
+html,body {
+	background-color: #eeeeee;
+}
+
+p1 {
+	font-size: 35px;
+	/*font-family: 'noto sans';*/
+	font-family: 'Lobster', cursive;
+}
+
+table, th {
+	font-family: 'Cabin', sans-serif;
+	margin-bottom: 25px;
+	padding: 0px 5px;
+	/*border: 1px solid #ffffff;*/
+}
+
+.titlebox {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.loginbutton {
+	background-color: #1aab8a;
+	color: #fff;
+	height: 40px;
+	width: 100px;
+	border: none;
+	padding: 4px 8px 4px 8px;
+	font-size: 20px;
+}
+
+.box {
+	margin: auto;
+	/*border: 2px solid #eeeeee;*/
+	text-align: center;
+}
+
+#inputID {
+	/*border-radius: 2px;*/
+}

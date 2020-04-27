@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<!--     <link <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'> -->
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  	<script src='../javascript/main.js'></script>
+	<header>
+      <a href="/"><h1>WhereToBuy</h1></a>
+
+
+		<div class="filter">
+			<select name="search_filter" id="search_filter" data-placeholder="검색 필터">
+				<option value="Gname">제품명</option>
+				<option value="Dname">제품분류</option>
+			</select>
+		</div>
+        <div class="search">
+          <input type="text" id="user_input" placeholder="검색어 입력">
+          <button id="go" onclick="search_go();">검색</button>
+        </div>
+
+	</header>
+
+	<div id="body_form">
+  	<div class="info_bar">
+  		<div class="info_bar_left">
+  			<h3>BEST 10 : 판매량이 많은 상품</h3>
+  		</div>
+  	</div>
+
+    <div class="best_ranking">
+      <div class="toggle_button" id="toggle1">click</div>
+
+        <div class="best_list" id="list1">
+          <!-- <p>list1</p> -->
+          <table>
+            <tr>
+              <td>
+                <div class="bestgoods" id="best1">
+                  <p>BEST 1</p>
+                  <img src="../sources/test.jpg" class="test_image">
+                  <p>product name</p>
+                  <p>price</p>
+                </div>
+              </td>
+              <td>
+                <div class="bestgoods" id="best2">
+                  <p>BEST 2</p>
+                  <img src="../sources/1.jpg" class="test_image">
+                  <p>product name</p>
+                  <p>price</p>
+                </div>
+              </td>
+              <td>
+                <div class="bestgoods" id="best3">
+                  <p>BEST 3</p>
+                  <img src="../sources/test.jpg" class="test_image">
+                  <p>product name</p>
+                  <p>price</p>
+                </div>
+              </td>
+              <td>
+                <div class="bestgoods" id="best4">
+                  <p>BEST 4</p>
+                  <img src="../sources/1.jpg" class="test_image">
+                  <p>product name</p>
+                  <p>price</p>
+                </div>
+              </td>
+              <td>
+                <div class="bestgoods" id="best5">
+                  <p>BEST 5</p>
+                  <img src="../sources/test.jpg" class="test_image">
+                  <p>product name</p>
+                  <p>price</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="best_list" id=list2 style="display:none">
+          <!-- <p>list2</p> -->
+          <table>
+            <tr>
+              <td>
+                <div class="bestgoods" id="best6">
+                  <p>BEST 6</p>
+                  <img src="../sources/test.jpg" class="test_image">
+                  <p>product name</p>
+                  <p>price</p>
+                </div>
+              </td>
+              <td>
+                <div class="bestgoods" id="best7">
+                  <p>BEST 7</p>
+                  <img src="../sources/1.jpg" class="test_image">
+                  <p>product name</p>
+                  <p>price</p>
+                </div>
+              </td>
+              <td>
+                <div class="bestgoods" id="best8">
+                  <p>BEST 8</p>
+                  <img src="../sources/test.jpg" class="test_image">
+                  <p>product name</p>
+                  <p>price</p>
+                </div>
+              </td>
+              <td>
+                <div class="bestgoods" id="best9">
+                  <p>BEST 9</p>
+                  <img src="../sources/1.jpg" class="test_image">
+                  <p>product name</p>
+                  <p>price</p>
+                </div>
+              </td>
+              <td>
+                <div class="bestgoods" id="best10">
+                  <p>BEST 10</p>
+                  <img src="../sources/test.jpg" class="test_image">
+                  <p>product name</p>
+                  <p>price</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+      <div class="toggle_button" id="toggle2">click</div>
+    </div>
+
+    <hr width=100% color="#000" style="margin:0px">
+
+    <div class="info_bar_left" style="margin:10px">
+        <h3>근처에 있는 매장</h3>
+    </div>
+
+    <div class="store_box">
+      <table>
+        <tr>
+          <td>
+          <div class="stores">
+            <img src="../sources/emart.jpg" class="test_image">
+            <p>이마트</p>
+            <p>대전유성점</p>
+          </div>
+          </td>
+          <td>
+          <div class="stores">
+            <img src="../sources/emart.jpg" class="test_image">
+            <p>이마트</p>
+            <p>대전유성점</p>
+          </div>
+          </td>
+          <td>
+            <div class="stores">
+              <img src="../sources/emart.jpg" class="test_image">
+              <p>이마트</p>
+              <p>대전유성점</p>
+            </div>
+          </td>
+          <td>
+            <div class="stores">
+              <img src="../sources/emart.jpg" class="test_image">
+              <p>이마트</p>
+              <p>대전유성점</p>
+            </div>
+          </td>
+          <td>
+            <div class="stores">
+              <img src="../sources/emart.jpg" class="test_image">
+              <p>이마트</p>
+              <p>대전유성점</p>
+            </div>
+          </td>
+          <td>
+            <div class="stores">
+              <img src="../sources/emart.jpg" class="test_image">
+              <p>이마트</p>
+              <p>대전유성점</p>
+            </div>
+          </td>
+          <td>
+            <div class="stores">
+              <img src="../sources/emart.jpg" class="test_image">
+              <p>이마트</p>
+              <p>대전유성점</p>
+            </div>
+          </td>
+          <td>
+            <div class="stores">
+              <img src="../sources/emart.jpg" class="test_image">
+              <p>이마트</p>
+              <p>대전유성점</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+	</div>
+  </body>
+
+  <script>
+    $('#toggle1').click(function(){
+      $('.best_list').toggle();
+      // $('.best_list').toggle("slow");
+    });
+    $('#toggle2').click(function(){
+      $('.best_list').toggle();
+      // $('.best_list').toggle("slow");
+    });
+
+  </script>
+
+</html>

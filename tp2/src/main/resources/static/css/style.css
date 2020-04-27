@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+/*  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';*/
+  font-weight: 100;
+}
+
+header{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  height: 50px;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+
+header h1{
+  display: inline-block;
+  float: left;
+}
+
+input{
+  font-size: 16px;
+  height: 90%;
+  width: 400px;
+  border: 0px;
+  outline: none;
+  float: left;
+}
+
+button{
+  width: 50px;
+  height: 100%;
+  border: 0px;
+  background: #1b5ac2;
+  outline: none;
+  float: right;
+  color: #ffffff;
+}
+
+.search{
+  height: 40px;
+  width: 500px;;
+  display: inline-block;
+  float: right;
+  border: 1px solid #1b5ac2;
+  background: #ffffff;
+}
+
+.info_bar{
+  height: 50px;
+  width:100%;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.info_bar_left{
+  text-align: center;
+  height: 70%;
+  width: 300px;
+  border: 1px solid #1b5ac2;
+  display: inline-block;
+  padding: 4px;
+}
+
+.info_bar_left h3{
+  margin : 5px;
+}
+
+.avg_price{
+  height: 70%;
+  width: 10%;
+  display: inline-block;
+  padding: 4px;
+  border: 1px solid gray;
+}
+
+.avg_price h4{
+  margin : 5px;
+}
+
+.card{
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  border: 1px solid #1b5ac2;
+}
+
+.product_num h1{
+  display: inline-block;
+  float: left;
+  margin: 5px;
+}
+
+.product_img{
+  width: 20%;
+  height: 90%;
+  display: inline-block;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid gray;
+}
+
+.product_info{
+  width: 20%;
+  height: 90%;
+  display: inline-block;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid #1b5ac2;
+}
+
+.subject{
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.content{
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.detail{
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.price_cheap{
+  font-size: 24px;
+  font-weight: 200;
+  color: green;
+}

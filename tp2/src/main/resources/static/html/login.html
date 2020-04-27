@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lon In page</title>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="titlebox" align="center">
+		<p1> WhereToBuy </p1>
+	</div>
+
+	<div class="box">
+	<table id="table" align="center">
+		<tr>
+			<th>ID</th>
+			<th><input type="text" id="inputID"></p></th>
+		</tr>
+		<tr>
+			<th>PW</th>
+			<th><input type="password" id="inputPW"></p></th>
+		</tr>
+	</table>
+
+	<input type="button" class="loginbutton" value="Log in" style="">
+	</div>
+
+
+	<script>
+		document.querySelector('.loginbutton').addEventListener('click', function() {
+			var id = document.getElementById('inputID');
+			var pw = document.getElementById('inputPW');
+
+			if(pw == '1234') {
+				$.ajax()
+			}
+			else {
+				window.alert("Wrong password!");
+			}
+		})
+
+	</script>
+
+</body>
+</html>
